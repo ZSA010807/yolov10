@@ -1,0 +1,10 @@
+1. 在当前项目下，新建datasets/data文件夹
+2. 将工业检测训练集和测试集解压到./datasets/data文件夹下，并分别重命名为train和val
+3. 运行data_convert.py: python data_convert.py
+此时./datasets/data文件夹下生成images和labels两个文件夹，里面分别包含train和val
+4. 开始训练: python train.py
+数据集配置：ultralytics/cfg/datasets/defect.yaml
+具体训练参数设置可在train.py或者ultralytics/cfg/default.py中更改
+5. 图片推理：python predict.py
+6. 测试集测试：python validation.py
+7. 将测试结果转化成提交格式：python submission.py
