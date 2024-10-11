@@ -88,7 +88,7 @@ def main():
     data_root = './datasets/data'
     names = ['dent', 'pit', 'rust-spot', 'scratch', 'smudge']
     modes = ['train', 'val']
-    copy_img = False
+    copy_img = True
     convert_labels = True
     if copy_img:  #复制图片
         for mode in modes:
