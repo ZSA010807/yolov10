@@ -1,8 +1,8 @@
 from ultralytics import YOLOv10
 
 # 数据集配置文件
-data_yaml_path = 'ultralytics/cfg/datasets/coco8.yaml'
-# 预训练模型
+data_yaml_path = 'ultralytics/cfg/datasets/defect.yaml'
+# 训练模型配置文件
 model_name = 'ultralytics/cfg/models/v10/yolov10b.yaml'
 
 if __name__ == '__main__':
